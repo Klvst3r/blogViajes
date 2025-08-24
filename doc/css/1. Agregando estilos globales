@@ -1,0 +1,19 @@
+1. Agregando estilos globales
+
+Resetear los margenes
+
+html{
+	box-sizing: border-box;
+}
+
+*. *:before e:after{
+	box-sizing: inherit;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+Estios del body

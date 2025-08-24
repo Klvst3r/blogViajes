@@ -1,0 +1,18 @@
+6. Footer
+
+footer
+	div.contenedor
+		div.nosotros
+			h2
+			p
+				lorem
+
+    div.menu
+    	nav 	
+    		ul 	
+    			li
+    				a href
+
+
+
+    p.copyright
