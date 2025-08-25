@@ -1,1 +1,38 @@
 6. Estilos al sidebar
+
+
+/* aside{
+	float:right;
+	width: 30%;
+	margin-top: 30px;	
+} */
+ aside {
+    width: 30%;
+    margin-top: 30px;
+    float: none; 
+}
+
+aside ul {
+	list-style: none;
+
+}
+
+aside ul li {
+    padding: 10px;
+    
+}
+
+aside ul li:hover{
+	background-color: #00b8e4;
+	cursor: pointer;
+
+}
+
+aside ul li a {
+	color: #00b8e4;	
+	text-decoration: none;
+}
+
+aside ul li:hover a {
+	color: #ffffff  ;
+}

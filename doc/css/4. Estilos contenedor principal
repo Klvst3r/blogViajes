@@ -1,1 +1,26 @@
 4. Estilos contenedor principal
+
+
+/* div.contenido::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+main{
+	width: 70%;
+	float: left;
+	padding-right: 40px;
+} */
+
+div.contenido {
+    display: flex;
+    align-items: flex-start; /* alinea todo arriba */
+    gap: 40px; /* separación entre main y aside */
+}
+
+main {
+    width: 70%;
+    padding-right: 0; /* ya no hace falta */
+    float: none; /* elimina el float */
+}

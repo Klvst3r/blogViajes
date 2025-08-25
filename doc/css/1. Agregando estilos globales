@@ -6,7 +6,7 @@ html{
 	box-sizing: border-box;
 }
 
-*. *:before e:after{
+*, *:before e:after{
 	box-sizing: inherit;
 }
 
@@ -17,3 +17,16 @@ html{
 
 
 Estios del body
+
+
+body {
+	font-family: verdana, Geneva, sans-serif;
+}
+
+header {
+	padding: 20px 0;
+}
+div.contenedor{
+	width: 1200px;
+	margin: 0 auto;
+}
